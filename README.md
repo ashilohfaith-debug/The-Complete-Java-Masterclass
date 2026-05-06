@@ -36,8 +36,8 @@ By learning Java, I get to explore exciting career opportunities in different in
 
 4. Cloud & backend development – Java is widely used in cloud computing and big data processing. Companies like Netflix, Amazon, and Google use Java for backend services.
 
-5. Cybersecurity & fintech – Banks, financial institutions, and cybersecurity firms rely on Java for secure applications.
+5. Cybersecurity & Fintech – Banks, financial institutions, and cybersecurity firms rely on Java for secure applications.
 
 <br/>
 
-**Exploring these domains excites me and reinforces my goal of leveraging Java to create efficient and impactful software solutions.**
+**The fact that I am going to explore these domains excites me and reinforces my goal of leveraging Java to create efficient and impactful software solutions.**

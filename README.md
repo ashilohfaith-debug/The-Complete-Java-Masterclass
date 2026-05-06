@@ -1,7 +1,7 @@
 # The-Complete-Java-Masterclass
 60 Days of Java: Documenting my journey
 
-Starting tomorrow (6th May, 2026), I’ll be documenting my 60-day journey of learning Java. Although I studied Java from grades 9 to 12, my experience was primarily focused on problem-solving rather than understanding its real-world applications. Through this Udemy course, I aim to go beyond the basics and explore how Java is used in software development. 
+Starting tomorrow (6th May, 2026), I’ll be documenting my 60-day journey of learning Java. Although I studied Java from grades 9 to 12, my experience was primarily focused on problem-solving rather than understanding its real-world applications. Through this Udemy course, I aim to go beyond the basics and explore how Java is used in Software Development. 
 
 <br/>
 <br/>

@@ -39,6 +39,5 @@ By learning Java, I get to explore exciting career opportunities in different in
 5. Cybersecurity & fintech – Banks, financial institutions, and cybersecurity firms rely on Java for secure applications.
 
 <br/>
-<br/>
 
 **Exploring these domains excites me and reinforces my goal of leveraging Java to create efficient and impactful software solutions.**

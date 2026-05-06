@@ -26,6 +26,7 @@ Day 51-60: Making REST calls from Java desktop apps, handling authentication fro
 <br/>
 
 🔑 Where Can Java Take Me?
+
 By learning Java, I get to explore exciting career opportunities in different industries:
 
 1. Software development – Become a Java developer, responsible for building enterprise applications and scalable systems.

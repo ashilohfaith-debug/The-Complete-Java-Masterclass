@@ -29,7 +29,11 @@ Day 51-60: Making REST calls from Java desktop apps, handling authentication fro
 By learning Java, I get to explore exciting career opportunities in different industries:
 
 o Software development – Become a Java developer, responsible for building enterprise applications and scalable systems.
+
 o Web development – Work with Spring Boot to build REST APIs and web applications used by companies worldwide.
+
 o Mobile app development – Java is the core language of Android development. Many mobile applications are still written in Java.
+
 o Cloud & backend development – Java is widely used in cloud computing and big data processing. Companies like Netflix, Amazon, and Google use Java for backend services.
+
 o Cybersecurity & fintech – Banks, financial institutions, and cybersecurity firms rely on Java for secure applications.

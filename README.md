@@ -1,12 +1,12 @@
 # The-Complete-Java-Masterclass
-60 Days of Java: Documenting my journey
+70 Days of Java: Documenting my journey
 
-Starting tomorrow (6th May, 2026), I’ll be documenting my 60-day journey of learning Java. Although I studied Java from grades 9 to 12, my experience was primarily focused on problem-solving rather than understanding its real-world applications. Through this Udemy course, I aim to go beyond the basics and explore how Java is used in software development. 
+Starting tomorrow (6th May, 2026), I’ll be documenting my 70-day journey of learning Java. Although I studied Java from grades 9 to 12, my experience was primarily focused on problem-solving rather than understanding its real-world applications. Through this Udemy course, I aim to go beyond the basics and explore how Java is used in software development. 
 
 <br/>
 <br/>
 
-🧭 Here’s the roadmap I’ll be following throughout these 60 days:
+🧭 Here’s the roadmap I’ll be following throughout these 70 days:
 
 Day 1-15: Learn Java fundamentals, control statements, loops, arrays, and user input handling.
 
@@ -21,6 +21,8 @@ Day 31-40: Work with Spring Boot to build robust web applications and RESTful AP
 Day 41-50: Integrate databases, create secure applications, implement session management, implement stateless and scalable authentication, role-based access control, and making a robust backend microservice.
 
 Day 51-60: Making REST calls from Java desktop apps, handling authentication from desktop apps, creating an interactive expense tracker UI, creating sharable JAR file and using my own app.
+
+Additionally, I have set aside 10 days as ‘Recap Days,’ during which I will refine my ideas and conduct a thorough review of what I have learned.
 
 <br/>
 <br/>

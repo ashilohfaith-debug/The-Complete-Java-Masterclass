@@ -6,7 +6,7 @@ Starting tomorrow (6th May, 2026), I’ll be documenting my 60-day journey of le
 <br/>
 <br/>
 
-🧭 Here’s the roadmap I’ll be following throughout these 70 days:
+🧭 Here’s the roadmap I’ll be following throughout these 60 days:
 
 Day 1-15: Learn Java fundamentals, control statements, loops, arrays, and user input handling.
 

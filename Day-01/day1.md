@@ -1,7 +1,9 @@
-📘 Day 1 – Introduction to Java
+# Day 1 – Introduction to Java
+06.05.2026
+
 🚀 Overview
 
-Today marked the beginning of my Java journey. I explored the fundamentals of Java, understood its core features, and wrote my first basic program. This session focused on building a strong foundation by understanding how Java works and how to structure a simple program.
+Today marked the beginning of my Java journey. I revised the fundamentals of Java, understood its core features, and wrote my first basic program. This session focused on building a strong foundation by understanding how Java works and how to structure a simple program.
 
 🔹 1. What is Java?
 Java is a high-level, object-oriented programming language developed by James Gosling (1995).

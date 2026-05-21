@@ -1,244 +1,115 @@
-Day 04 – Java Basics Extended: Strings & String Operations
+# Day 04: String Manipulation and Comparison
+09.05.2026
 
-Date: 9 May 2026
-Duration: ~1 Hour
-Focus: Understanding Strings, String Comparison, Manipulation & Formatting in Java
+<br/>
 
-🎯 Objective
+## Overview
+Today, I learnt about Strings in Java, including string creation, comparison, manipulation, and formatting techniques.
 
-Understand how Java handles text using Strings, including creating, comparing, modifying, and formatting strings for real-world programming.
+<br/>
 
-✅ What I Completed
-1️⃣ Learned About Strings in Java
+## Topics Covered
+1️⃣ Introduction to Strings
 
-Understood that Strings represent sequences of characters used to store text data.
+🔹 Strings represent sequences of characters in Java. <br/>
+🔹 Strings in Java are immutable, meaning their values cannot be changed after creation.
 
-Concepts Learned:
-Strings store textual information
-Strings are immutable in Java
-String operations are widely used in applications
-Example:
-String name = "Faith";
-Understood:
-Strings are reference data types
-Once created, String objects cannot be modified directly
-Java creates new String objects during modifications
-2️⃣ Learned How to Create Strings
+<br/>
 
-Studied different ways to create String objects.
+2️⃣ Creating Strings
 
-Methods Learned:
-Using String literals
-Using the new keyword
-Examples Practiced:
+Strings can be created by two ways: <br/>
+🔹 String literals
+```
 String name = "Java";
-
+```
+🔹 By using `new` keyword
+```
 String language = new String("Java");
-Understood:
-String literals are memory efficient
-new String() creates a separate object in memory
-Both methods create String objects differently internally
-3️⃣ Learned String Concatenation
+```
 
-Studied how multiple strings can be joined together.
+<br/>
 
-Method Learned:
-Using the + operator
-Examples Practiced:
-String firstName = "Faith";
-String lastName = "Developer";
+3️⃣ String Concatenation
 
-String fullName = firstName + " " + lastName;
-Understood:
-Concatenation combines strings
-Java automatically joins text values
-Frequently used in outputs and messages
-4️⃣ Learned About String Length
+Concatenation joins multiple strings together using the `+` operator.
 
-Studied how to find the number of characters inside a string.
+<br/>
 
-Method Learned:
-length()
-Example:
-String text = "Java";
+4️⃣ String Length
 
+The `length()` method returns the number of characters in a string. <br/>
+🔹 Example:
+```
+String text = "Hello";
 System.out.println(text.length());
-Understood:
-length() returns total characters
-Spaces are also counted
-Useful for validations and loops
-5️⃣ Learned About Character Access
+```
 
-Studied how to access individual characters inside a String.
+<br/>
 
-Method Learned:
-charAt()
-Example:
+5️⃣ Accessing Characters
+
+The `charAt()` method returns the character at a specific index. <br/>
+🔹 Example:
+```
 String word = "Java";
+System.out.println(word.charAt(1));
+```
 
-System.out.println(word.charAt(0));
-Understood:
-Indexing starts from 0
-charAt() returns a single character
-Useful for character-based operations
-6️⃣ Learned String Comparison Using ==
+<br/>
 
-Understood how == compares memory references instead of actual content.
+6️⃣ Comparing Strings
 
-Example:
-String a = "Java";
-String b = "Java";
+🔹 Using `==` which checks whether two references point to the same object <br/>
+🔹 Using `equals()` which compares the actual content of strings <br/>
+🔹 Using `equalsIgnoreCase()` which compares strings without considering case sensitivity <br/>
+🔹 Using `compareTo()` which compares strings lexicographically (dictionary order)
 
-System.out.println(a == b);
-Understood:
-== checks whether both variables point to the same object
-It does NOT compare actual text content reliably
-Can lead to confusion for beginners
-7️⃣ Learned String Comparison Using equals()
+<br/>
 
-Studied the correct way to compare String content.
+7️⃣ More String Methods
 
-Method Learned:
-equals()
-Example:
-String a = "Java";
-String b = "Java";
+🔹 `substring()`: extracts part of a string <br/>
+🔹 `replace()`: replaces characters in a string <br/>
+🔹 `toUpperCase()`: converts string to uppercase <br/>
+🔹 `toLowerCase()`: converts string to lowercase
 
-System.out.println(a.equals(b));
-Understood:
-equals() compares actual text values
-Most commonly used for String comparison
-Preferred over == for content checking
-8️⃣ Learned equalsIgnoreCase()
+<br/>
 
-Studied how to compare strings without considering uppercase or lowercase letters.
+8️⃣ String Formatting
 
-Example:
-String a = "JAVA";
+String formatting creates strings with embedded variables and formatted values. This can be done by using `String.format()`: <br/>
+```
+String.format("Hello, %s!", name);
+```
 
-System.out.println(a.equalsIgnoreCase("java"));
-Understood:
-Ignores character casing
-Useful for user input comparisons
-Prevents case-sensitive issues
-9️⃣ Learned Lexicographical Comparison Using compareTo()
+<br/>
 
-Studied how Java compares strings alphabetically.
+9️⃣ Formatting Numbers
 
-Method Learned:
-compareTo()
-Example:
-"Apple".compareTo("Banana");
-Understood:
-Compares strings using dictionary order
-Returns:
-Positive number
-Negative number
-Zero
-Useful for sorting and ordering data
-🔟 Learned More String Operations
-
-Studied additional built-in String methods.
-
-🔹 Substring Extraction
-Method Learned:
-substring()
-Example:
-String text = "Programming";
-
-System.out.println(text.substring(0, 6));
-Understood:
-Extracts part of a String
-Start index is inclusive
-End index is exclusive
-🔹 Replacing Characters
-Method Learned:
-replace()
-Example:
-String text = "Java";
-
-System.out.println(text.replace('a', 'o'));
-Understood:
-Creates a modified copy of the String
-Original String remains unchanged
-🔹 Changing Case
-Methods Learned:
-toUpperCase()
-toLowerCase()
-Example:
-String name = "Java";
-
-System.out.println(name.toUpperCase());
-Understood:
-Converts text casing
-Useful for normalization and comparisons
-1️⃣1️⃣ Learned About String Formatting
-
-Studied how Java formats strings dynamically using placeholders.
-
-Method Learned:
-String.format()
-Example:
-String name = "Faith";
-
-String result = String.format("Hello, %s!", name);
-Understood:
-%s is used for Strings
-Helps create clean and readable output
-Useful for reports and formatted messages
-1️⃣2️⃣ Learned Number Formatting
-
-Studied how numbers can be formatted inside strings.
-
-Example:
+Numbers can be formatted to control decimal places. Example: <br/>
+```
 String.format("%.2f", 1234.567);
-Understood:
-Controls decimal precision
-Useful for financial and scientific applications
-Makes outputs cleaner and professional
-🧠 Key Concepts Learned
-Strings and immutability
-String creation methods
-String concatenation
-length() and charAt()
-String comparison using:
-==
-equals()
-equalsIgnoreCase()
-compareTo()
-String manipulation methods
-String formatting and placeholders
-Number formatting techniques
-🔄 Mindset Shift
+```
 
-Moved from:
+**Output:** <br/>
+1234.57
 
-Treating text as simple output
+<br/>
 
-To:
+## Key Takeaways
 
-Understanding how Java internally stores, compares, manipulates, and formats textual data efficiently
+💡 Strings are useful for:
 
-💭 Reflection
+🔹 Storing text data <br/>
+🔹 User interaction <br/>
+🔹 Data formatting <br/>
+🔹 Text manipulation
 
-Day 4 focused on mastering one of the most important concepts in Java — Strings.
+<br/>
 
-Built:
+🧠 What I learnt:
 
-Strong understanding of String operations
-Awareness of immutable objects
-Clarity on proper String comparison techniques
-Understanding of formatting and text manipulation
-
-This day established the foundation required for:
-
-User input handling
-Data validation
-File handling
-Object-Oriented Programming
-Backend development
-Real-world application building
-✅ Status
-
-Day 4 Complete
-Streak: 4 / 60
+🔹 String creation in Java <br/>
+🔹 Operations on Strings <br/>
+🔹 String formatting techniques

@@ -4,7 +4,7 @@
 <br/>
 
 ## Overview
-Today, I learned about Switch Control Statements in Java, which provide a cleaner and more readable alternative to long `if-else-if` ladders when handling multiple conditions based on a single variable.
+Today, I learnt Switch Control Statements in Java, which provide a cleaner and more readable alternative to long `if-else-if` ladders when handling multiple conditions based on a single variable.
 
 <br/>
 

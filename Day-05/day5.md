@@ -70,7 +70,6 @@ An IDE (Integrated Development Environment) is software that helps developers wr
 <br/>
 
 ## Key Takeaways
-
 💡 IDEs are useful for:
 
 🔹 Faster coding <br/>

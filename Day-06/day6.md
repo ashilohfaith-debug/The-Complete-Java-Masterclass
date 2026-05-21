@@ -1,141 +1,127 @@
-📘 Day 6 — Control Statements & Conditional Operators in Java
-📖 Overview
+# Day 6: Control Statements - If, Else, and Ternary Operators
+20.05.2026
 
-Today I learned about Control Statements in Java, which allow a program to make decisions and execute different blocks of code based on conditions.
+<br/>
 
-Conditional statements are important because they help control the flow of a program and make applications interactive and logical.
+## Overview
+Today, I learnt Conditional Statements in Java, which are used to make decisions in programs based on different conditions.
 
-🚀 Topics Covered
-1️⃣ If Statement
+<br/>
 
-The if statement executes a block of code only when a condition is true.
+## Topics Covered
+1️⃣ Introduction to Conditional Statements
 
-🔹 Syntax
+Conditional statements allow programs to execute different blocks of code depending on whether a condition is true or false.
+
+<br/>
+
+2️⃣ Types of Conditional Statements
+
+🔹 if statement <br/>
+🔹 if-else statement <br/>
+🔹 if-else-if ladder <br/>
+🔹 switch statement
+
+<br/>
+
+3️⃣ If Statement
+
+The if statement executes code only when a condition is true. <br/>
+🔹 Syntax:
+```
 if(condition) {
+
     // code executes if condition is true
 }
-🔹 Example
-int age = 18;
+```
 
-if(age >= 18) {
-    System.out.println("Eligible to vote");
-}
-🔹 What I Learned
-Used for decision-making.
-Executes code only when the condition evaluates to true.
-2️⃣ If-Else Statement
+<br/>
 
-The if-else statement provides two possible execution paths.
+4️⃣ If-Else Statement
 
-🔹 Syntax
+The if-else statement executes one block if the condition is true and another block if it is false. <br/>
+🔹 Syntax:
+```
 if(condition) {
+
     // code if true
+
 } else {
+
     // code if false
 }
-🔹 Example
-int number = 7;
+```
 
-if(number % 2 == 0) {
-    System.out.println("Even Number");
-} else {
-    System.out.println("Odd Number");
-}
-🔹 What I Learned
-Helps programs choose between two outcomes.
-Useful for validation and logical checks.
-3️⃣ Nested If-Else Statements
+<br/>
 
-Nested conditions allow checking multiple levels of conditions.
+5️⃣ Nested If-Else Statements
 
-🔹 Example
-int age = 20;
-boolean hasID = true;
-
-if(age >= 18) {
-    if(hasID) {
-        System.out.println("Entry Allowed");
-    }
-} else {
-    System.out.println("Entry Denied");
-}
-🔹 What I Learned
-One if statement can exist inside another.
-Useful for complex decision-making.
-4️⃣ If-Else-If Ladder
-
-Used when checking multiple conditions sequentially.
-
-🔹 Syntax
+Nested if-else statements allow checking multiple layers of conditions. <br/>
+🔹 Syntax:
+```
 if(condition1) {
-    // code
-}
-else if(condition2) {
-    // code
-}
-else {
-    // code
-}
-🔹 Example
-int marks = 85;
 
-if(marks >= 90) {
-    System.out.println("Grade A");
-}
-else if(marks >= 75) {
-    System.out.println("Grade B");
-}
-else {
-    System.out.println("Grade C");
-}
-🔹 What I Learned
-Checks conditions one by one.
-Executes only the first true condition.
-5️⃣ Ternary Operator
+    if(condition2) {
 
-The ternary operator is a shorthand version of a simple if-else statement.
+        // code if both are true
+    }
 
-🔹 Syntax
+} else {
+
+    if(condition3) {
+
+        // code if condition1 is false
+    }
+}
+```
+
+<br/>
+
+6️⃣ If-Else-If Ladder
+
+Used to check multiple conditions sequentially. <br/>
+🔹 Syntax:
+```
+if(condition1) {
+
+    // code
+
+} else if(condition2) {
+
+    // code
+
+} else {
+
+    // code if all conditions are false
+}
+```
+
+<br/>
+
+7️⃣ Ternary Operator
+
+The ternary operator is a shorthand version of simple if-else statements. <br/>
+🔹 Syntax:
+```
 condition ? expression1 : expression2;
-🔹 Example
-int number = 10;
+```
 
-String result = (number % 2 == 0) ? "Even" : "Odd";
+<br/>
 
-System.out.println(result);
-🔹 What I Learned
-Makes code shorter and cleaner.
-Best used for simple conditions.
-💡 Importance of Conditional Statements
+## Key Takeaways
 
-Conditional statements are used in:
+💡 Conditional statements are useful for:
 
-User input validation
-Decision-making systems
-Login authentication
-Menu-driven applications
-Game logic
-Control flow management
-🧠 Key Takeaways
+🔹 Decision making <br/>
+🔹 Input validation <br/>
+🔹 Program flow control <br/>
+🔹 Building logical applications
 
-✅ Learned how Java makes decisions using conditions
-✅ Understood if, if-else, and nested conditions
-✅ Learned how to handle multiple conditions using if-else-if
-✅ Explored the ternary operator for concise code
-✅ Improved logical thinking and programming flow understanding
+<br/>
 
-📂 Concepts Practiced
-Boolean conditions
-Comparison operators
-Logical flow
-Code execution control
-Decision-making structures
-🛠️ Technologies Used
-Java
-VS Code / IntelliJ IDEA
-JDK
-📌 Conclusion
+🧠 What I learnt:
 
-Today’s session helped me understand how programs make decisions using conditional statements in Java. These concepts form the foundation of problem-solving and logical programming and are essential for building real-world applications.
-
-✨ Learning Java one concept at a time.
+🔹 How conditional statements work in Java <br/>
+🔹 Difference between if, if-else, and if-else-if <br/>
+🔹 Nested conditional statements <br/>
+🔹 Usage of ternary operators

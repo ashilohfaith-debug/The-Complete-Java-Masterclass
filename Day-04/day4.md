@@ -98,7 +98,6 @@ String.format("%.2f", 1234.567);
 <br/>
 
 ## Key Takeaways
-
 💡 Strings are useful for:
 
 🔹 Storing text data <br/>

@@ -109,7 +109,6 @@ condition ? expression1 : expression2;
 <br/>
 
 ## Key Takeaways
-
 💡 Conditional statements are useful for:
 
 🔹 Decision making <br/>

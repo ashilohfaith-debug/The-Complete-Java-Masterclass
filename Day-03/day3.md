@@ -1,4 +1,5 @@
-Day 03 – Java Basics: Operators, Expressions & Strings
+# Day 03 – Java Basics: Operators, Expressions & Strings
+08.05.2026
 
 Date: 8 May 2026
 Duration: ~1 Hour

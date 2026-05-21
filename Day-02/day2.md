@@ -112,7 +112,6 @@ int result = (int) number;
 <br/>
 
 ## Key Takeaways
-
 💡 Variables and data types are useful for:
 
 🔹 Storing information <br/>

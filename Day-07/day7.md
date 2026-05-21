@@ -110,7 +110,6 @@ Two
 <br/>
 
 ## Key Takeaways
-
 💡 Switch statements are useful for: 
 
 🔹 Menu-driven programs <br/>

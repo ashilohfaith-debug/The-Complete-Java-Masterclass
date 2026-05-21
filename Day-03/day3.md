@@ -105,7 +105,6 @@ Operator precedence determines the order of evaluation. <br/>
 <br/>
 
 ## Key Takeaways
-
 💡 Operators are useful for:
 
 🔹 Mathematical calculations <br/>

@@ -1,4 +1,5 @@
-Day 02 – Java Basics: Variables, Data Types & Type Casting
+# Day 02 – Java Basics: Variables, Data Types & Type Casting
+07.05.2026
 
 Date: 7 May 2026
 Duration: 1 hour

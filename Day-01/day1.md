@@ -1,151 +1,110 @@
-# Day 1 – Introduction to Java
+# Day 1 – Introduction to Java and JDoodle Basics
 06.05.2026
 
-🚀 Overview
+## Overview
+Today, I learnt the basics of Java, including its features, structure, printing output, common errors, and how to solve coding problems using online resources.
 
-Today marked the beginning of my Java journey. I revised the fundamentals of Java, understood its core features, and wrote my first basic program. This session focused on building a strong foundation by understanding how Java works and how to structure a simple program.
+<br/>
 
-🔹 1. What is Java?
-Java is a high-level, object-oriented programming language developed by James Gosling (1995).
-It is widely used for:
-Web development
-Enterprise applications
-Mobile applications (Android)
-Known for being:
-Portable
-Robust
-Beginner-friendly
+## Topics Covered
+1️⃣ History of Java
 
-💡 Extra Insight:
-Java follows the principle “Write Once, Run Anywhere (WORA)”, meaning compiled code can run on any system with a JVM.
+🔹 Java was developed by James Gosling and his team at Sun Microsystems. <br/>
+🔹 The project was initially called Oak because of an oak tree outside James Gosling’s office. <br/>
+🔹 Oak was designed for electronic devices like set-top boxes and smart appliances. <br/>
+🔹 Since the name “Oak” was already trademarked, it was renamed to Java in 1995. <br/>
+🔹 Java was officially released by Sun Microsystems in 1995. <br/>
+🔹 Java became popular because of its platform independence — “Write Once, Run Anywhere (WORA).” <br/>
+🔹 Java programs run on the Java Virtual Machine (JVM), allowing them to work on different operating systems. <br/>
+🔹 Java quickly gained popularity for web applications, enterprise software, and mobile development. <br/>
+🔹 In 2006, Sun Microsystems made Java open source under the OpenJDK project. <br/>
+🔹 In 2010, Oracle Corporation acquired Sun Microsystems and became the owner of Java.
 
-🔹 2. Key Features of Java
-✅ Simple
-Easy-to-read syntax similar to English
-Designed for ease of learning
-✅ Object-Oriented
-Based on concepts like:
-Classes
-Objects
-Promotes:
-Code reusability
-Modularity
-✅ Platform Independent
-Runs on any device with JVM (Java Virtual Machine)
-No need to rewrite code for different systems
-✅ Secure
-Features include:
-Memory management
-Exception handling
-Access control
+<br/>
 
-💡 Extra Insight:
-Java code is compiled into bytecode, which is executed by the JVM — this is what makes it platform-independent.
+2️⃣ Features of Java
 
-🔹 3. Development Tool – JDoodle
-An online Java compiler used for writing and executing code
-Advantages:
-No installation required
-Simple interface
-Instant output
-Beginner-friendly
+🔹 Simple – Java syntax is easy to understand. <br/>
+🔹 Object-Oriented – Supports reusable and modular programming using OOP concepts. <br/>
+🔹 Platform Independent – Java follows the principle of “Write Once, Run Anywhere” using JVM. <br/>
+🔹 Secure – Provides memory management, exception handling, and access control.
 
-💡 Extra Insight:
-While JDoodle is great for learning, professionals typically use IDEs like IntelliJ IDEA or Eclipse.
+<br/>
 
-🔹 4. Displaying Output in Java
-📌 Basic Syntax
+3️⃣ Introduction to JDoodle
+
+🔹 JDoodle is an online Java compiler useful for beginners. <br/>
+🔹 No installation is required to run Java programs. <br/>
+🔹 Provides a simple and user-friendly interface. <br/>
+🔹 Gives instant feedback after compiling and running code. <br/>
+🔹 Free to use for learning purposes.
+
+<br/>
+
+4️⃣ Displaying Text on the Screen
+
+In Java, text can be displayed using `System.out.println()`. <br/>
+🔹 Example:
+```
 System.out.println("Hello, World!");
-🔍 Understanding the Statement
-System.out.println → prints output
-() → contains the data to print
-"" → used for text (strings)
-; → terminates the statement
-🧠 Variations
-System.out.println("Good Morning");
-System.out.println(123);      // Integer
-System.out.println(45.67);   // Decimal
+```
+Explanation: <br/>
+🔹 System.out.println → Displays output on the screen <br/>
+🔹 Parentheses () → Holds the text to display <br/>
+🔹 Double quotes "" → Encloses the text <br/>
+🔹 Semicolon ; → Ends the statement
 
-System.out.print("Hello, ");
-System.out.print("World!");
+<br/>
 
-System.out.print("Hello,\nWorld!");
-🔹 5. Structure of a Java Program
-📦 Basic Program
+5️⃣ Breaking Down Java Code
+
+🔹 A class is like a container that stores instructions. <br/>
+🔹 The main method is the starting point of program execution.
+```
 public class MyClass {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("Hello, world!");
     }
 }
-🔍 Breakdown
-🧱 Class
-A class is a container for code
-Every Java program must have at least one class
-🚀 Main Method
-Entry point of the program
-Execution starts here
-⚙️ Components
-public → accessible everywhere
-static → no object required
-void → no return value
-main → method name (starting point)
-String[] args → command-line arguments
-{} → defines code blocks
+```
+Code Breakdown: <br/>
+🔹 public → Accessible from anywhere <br/>
+🔹 class → Defines a class <br/>
+🔹 MyClass → Name of the class <br/>
+🔹 {} → Defines the block of code <br/>
+🔹 static → Belongs to the class itself <br/>
+🔹 void → No return value <br/>
+🔹 main → Starting point of execution <br/>
+🔹 String[] args → Stores command-line arguments
 
-💡 Extra Insight:
-The class name must match the file name in Java — a common beginner mistake.
+<br/>
 
-🔹 6. Common Errors and Debugging
-❌ Common Mistakes
-Misspelling:
-System.out.prinln ❌
-System.out.println ✅
-Missing semicolon ;
-Mismatched quotes or parentheses
-Incorrect main method syntax
-Case sensitivity errors
-Missing {} braces
-🛠️ Debugging Approach
-Read the error message carefully
-Copy and search it
-Use ChatGPT for explanation
-Apply the fix
-Run the program again
-🔹 7. Using Stack Overflow
-A platform for solving coding errors
-📌 How to use:
-Search your error first
-Read existing solutions
-Ask questions with:
-Clear title
-Code snippet
-Error message
+6️⃣ println vs. print
+```
+System.out.println("Hello");
+System.out.println("World");
+System.out.print("Hello, ");
+System.out.println("World!");
+```
+**Output:** <br/>
+Hello <br/>
+World <br/>
+Hello, World!
 
-💡 Extra Insight:
-Learning to search errors effectively is a core developer skill.
+<br/>
 
-🔹 8. Additional Strengths of Java
-Open-source ecosystem
-Extensive documentation
-Strong community support
-Highly versatile:
-Web
-Mobile
-Cloud
-IoT
-🔹 9. Final Program Example
-public class Main { 
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        System.out.println(42);
-        System.out.println(3.14);
-        System.out.print("This is ");
-        System.out.print("on the same line.");
-    }
-}
-🎯 Key Takeaways
-Java is a powerful, platform-independent language
-Understanding syntax and structure is essential
-Errors are part of the learning process
-Debugging and searching solutions are critical skills
-Consistent practice is key to mastering Java
+## Key Takeaways
+💡 Java is useful for:
+
+🔹 Building applications <br/>
+🔹 Web and mobile development <br/>
+🔹 Enterprise software
+
+<br/>
+
+🧠 What I learnt:
+
+🔹 Introduction to Java <br/>
+🔹 Features of Java <br/>
+🔹 Printing output in Java <br/>
+🔹 Structure of Java programs

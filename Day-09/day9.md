@@ -1,15 +1,14 @@
-Day 09 – Arrays and ArrayList in Java
-
+# Day 09 – Arrays and ArrayList in Java
 24.05.2026
 
 <br/>
-Overview
 
+## Overview
 Today, I learnt about Arrays, 2D Arrays, the Arrays class, and ArrayList in Java. These concepts are used to store and manage collections of data efficiently in Java programs.
 
 <br/>
-Topics Covered
 
+## Topics Covered
 1️⃣ Introduction to Arrays
 
 An array in Java stores multiple values of the same data type. Array elements are accessed using indexes starting from 0.

@@ -13,8 +13,10 @@ Today, I learnt about Arrays, 2D Arrays, the Arrays class, and ArrayList in Java
 
 An array in Java stores multiple values of the same data type. Array elements are accessed using indexes starting from 0. <br/>
 🔹 Example:
-
+```
 int[] numbers;
+```
+
 <br/>
 
 2️⃣ Declaring and Initializing Arrays
